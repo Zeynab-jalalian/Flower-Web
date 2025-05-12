@@ -128,12 +128,74 @@ html {
     color: var(--green);
 }
 
+#menu-bar {
+    font-size: 3rem;
+    color: #666;
+    border: 0.1rem solid #666;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*responsive*/
+@media(max-width:1200px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media(max-width:991px) {
+
+    .header-1,
+    .header-2,
+    .header-3 {
+        padding: 2rem;
+    }
+}
+
+@media(max-width:768px) {
 #menu-bar{
- font-size: 3rem;
- color: #666;
- border: 0.1rem solid #666;
- border-radius: 0.5rem;
- padding: 0.5rem 1.5rem;
- cursor: pointer;
- display: none;
+    display: initial;
+}
+.header-3 .navbar{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #eee;
+    padding: 1rem 2rem;
+    border-top: 0.1rem solid rgba(0,0,0,0.3);
+}
+.header-3 .navbar a{
+    display: block;
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid rgba(0,0,0,0.3);
+    background: #fff;
+    text-align: center;
+}
+   
 }
