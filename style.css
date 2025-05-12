@@ -44,3 +44,18 @@ html{
     position: relative;
     z-index: 1000;
 }
+
+
+.header-1 span{
+    font-weight: lighter;
+    color: #fff;
+    font-size: 1.7rem;
+}
+.header-1 a{
+    padding: 0 0.7rem;
+    color: #fff;
+    font-size: 2rem;
+}
+.header-1 a:hover{
+    color: yellow;
+}
