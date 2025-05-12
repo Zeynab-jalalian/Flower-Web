@@ -123,6 +123,17 @@ html {
     font-size: 2.5rem;
     margin-left: 2rem;
 }
-.header-3 a:hover{
+
+.header-3 a:hover {
     color: var(--green);
+}
+
+#menu-bar{
+ font-size: 3rem;
+ color: #666;
+ border: 0.1rem solid #666;
+ border-radius: 0.5rem;
+ padding: 0.5rem 1.5rem;
+ cursor: pointer;
+ display: none;
 }
