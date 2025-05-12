@@ -112,6 +112,11 @@ html {
 }
 
 
+
+.header-3 .navbar.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
 .header-3 .navbar a {
     color: #666;
     font-size: 2rem;
@@ -188,6 +193,7 @@ html {
         background: #eee;
         padding: 1rem 2rem;
         border-top: 0.1rem solid rgba(0, 0, 0, 0.3);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
 
     .header-3 .navbar a {
@@ -199,11 +205,12 @@ html {
         background: #fff;
         text-align: center;
     }
-   
-    .header-2{
+
+    .header-2 {
         flex-flow: column;
     }
-    .header-2 .search-bar-container{
+
+    .header-2 .search-bar-container {
         width: 100%;
         margin-top: 2rem;
     }
@@ -213,7 +220,8 @@ html {
     html {
         font-size: 50%;
     }
-    .header-1{
+
+    .header-1 {
         display: none;
     }
 }
