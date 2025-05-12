@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
-:root{
-    --green:#3a9943;
+:root {
+    --green: #3a9943;
 }
-*{
-    font-family: 'Roboto',sans-serif;
+
+* {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,11 +15,13 @@
     text-decoration: none;
     transition: all 0.2s linear;
 }
-*::selection{
+
+*::selection {
     background: var(--green);
     color: #fff;
 }
-html{
+
+html {
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -28,72 +31,98 @@ html{
 
 .header-1,
 .header-2,
-.header-3{
+.header-3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem 9%;
     background: var(--green);
 }
-.header-1{
-    border-bottom: 0.1rem solid rgba(255,255,255,0.2);
+
+.header-1 {
+    border-bottom: 0.1rem solid rgba(255, 255, 255, 0.2);
 }
-.header-3{
-    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+
+.header-3 {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     background: #fff;
     position: relative;
     z-index: 1000;
 }
 
 
-.header-1 span{
+.header-1 span {
     font-weight: lighter;
     color: #fff;
     font-size: 1.7rem;
 }
-.header-1 a{
+
+.header-1 a {
     padding: 0 0.7rem;
     color: #fff;
     font-size: 2rem;
 }
-.header-1 a:hover{
+
+.header-1 a:hover {
     color: yellow;
 }
 
 
-.header-2 .logo{
+.header-2 .logo {
     font-weight: bolder;
     font-size: 3rem;
     color: #fff;
 }
-.header-2 .logo i{
+
+.header-2 .logo i {
     color: yellow;
 }
-.header-2 .search-bar-container{
+
+.header-2 .search-bar-container {
     display: flex;
     align-items: center;
     width: 50rem;
     padding: 1.5rem;
-    background: rgba(255,255,255,0.2);
+    background: rgba(255, 255, 255, 0.2);
     border-radius: 0.5rem;
 }
-.header-2 .search-bar-container #search-bar{
+
+.header-2 .search-bar-container #search-bar {
     width: 100%;
     background: none;
     text-transform: none;
     color: #fff;
     font-size: 1.7rem;
 }
-.header-2 .search-bar-container #search-bar::placeholder{
+
+.header-2 .search-bar-container #search-bar::placeholder {
     text-transform: capitalize;
     color: #ddd;
 }
-.header-2 .search-bar-container label{
+
+.header-2 .search-bar-container label {
     color: #fff;
     cursor: pointer;
     font-size: 2rem;
-    padding:0 0.5rem;
+    padding: 0 0.5rem;
 }
-.header-2 .search-bar-container label:hover{
+
+.header-2 .search-bar-container label:hover {
     color: yellow;
+}
+
+
+.header-3 .navbar a {
+    color: #666;
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+
+.header-3 .icons a {
+    color: #666;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+.header-3 a:hover{
+    color: var(--green);
 }
