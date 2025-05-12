@@ -112,7 +112,6 @@ html {
 }
 
 
-
 .header-3 .navbar.active {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
@@ -133,6 +132,13 @@ html {
     color: var(--green);
 }
 
+.header-3.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
 #menu-bar {
     font-size: 3rem;
     color: #666;
@@ -142,8 +148,6 @@ html {
     cursor: pointer;
     display: none;
 }
-
-
 
 
 
