@@ -15,7 +15,9 @@
     text-decoration: none;
     transition: all 0.2s linear;
 }
-
+section{
+    padding:1.5rem 9%;
+}
 *::selection {
     background: var(--green);
     color: #fff;
@@ -149,8 +151,20 @@ html {
     display: none;
 }
 
-
-
+.home{
+    padding-top: 0;
+}
+.home .home-slider{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border: 1rem solid rgba(0, 0, 0, 0.3);
+    border-top: 0;
+}
+.home .home-slider .box{
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 55rem;
+    position: relative;
+}
 
 
 
