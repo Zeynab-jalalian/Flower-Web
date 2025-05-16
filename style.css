@@ -211,12 +211,28 @@ html {
     overflow: hidden;
     position: relative;
 }
-
-
-
-
-
-
+.banner-container .banner .content{
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    transform: translateY(-50%);
+}
+.banner-container .banner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.banner-container .banner .content span{
+    color: #666;
+    font-size: 1.7rem;
+}
+.banner-container .banner .content h3{
+    color: #333;
+    font-size: 3rem;
+}
+.banner-container .banner:hover img{
+    transform: scale(1.2);
+}
 
 
 
