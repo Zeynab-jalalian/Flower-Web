@@ -277,14 +277,24 @@ html {
 
 .category .box-container .box .content {
     position: absolute;
-    bottom: 0;
+    bottom: -5.5rem;
     background: #fff;
     border-top: 0.1rem solid rgba(0, 0, 0, 0.3);
     text-align: center;
     padding: 0.5rem 0;
     width: 100%;
 }
-
+.category .box-container .box:hover .content{
+bottom: 0;
+}
+.category .box-container .box .content h3{
+    color: #333;
+    font-size: 2.5rem;
+    padding: 0.5rem 0;
+}
+.category .box-container .box .content .btn{
+    margin-bottom: 1.3rem;
+}
 /*responsive*/
 @media(max-width:1200px) {
     html {
