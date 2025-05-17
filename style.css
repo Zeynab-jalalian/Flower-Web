@@ -19,7 +19,14 @@
 section {
     padding: 1.5rem 9%;
 }
-
+.heading{
+    font-size: 3rem;
+    color: #444;
+    padding-left: 1rem;
+    border-left: 0.4rem solid var(--green);
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
 .btn {
     background: var(--green);
     display: inline-block;
@@ -244,6 +251,7 @@ html {
 .banner-container .banner:hover img {
     transform: scale(1.2);
 }
+
 
 
 
