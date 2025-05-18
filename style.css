@@ -320,7 +320,8 @@ html {
     object-fit: cover;
     border-bottom: 0.1rem solid rgba(0, 0, 0, 0.3);
 }
-.product .box-container .box .discount{
+
+.product .box-container .box .discount {
     position: absolute;
     top: 1rem;
     left: 1rem;
@@ -330,9 +331,33 @@ html {
     padding: 0.5rem 1rem;
 }
 
-
-
-
+.product .box-container .box .icons {
+    position: absolute;
+    top: 1rem;
+    right: -8rem;
+    display: flex;
+    flex-flow: column;
+    background: #fff;
+    border-radius: 5rem;
+    padding: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+.product .box-container .box:hover .icons{
+    right: 1rem;
+}
+.product .box-container .box .icons  a{
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    font-size: 1.5rem;
+    color: #333;
+    border-radius: 5rem;
+    margin: 0.1rem;
+}
+.product .box-container .box .icons a:hover{
+    color: #fff;
+    background: var(--green);
+}
 
 
 
