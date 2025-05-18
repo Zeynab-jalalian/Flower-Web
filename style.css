@@ -320,7 +320,15 @@ html {
     object-fit: cover;
     border-bottom: 0.1rem solid rgba(0, 0, 0, 0.3);
 }
-
+.product .box-container .box .discount{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: rgba(0, 255, 0, 0.1);
+    color: var(--green);
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+}
 
 
 
