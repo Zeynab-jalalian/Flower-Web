@@ -383,6 +383,16 @@ html {
     text-align: center;
     background: rgba(0, 0, 0, 0.1);
 }
+.product .box-container .box .price{
+    font-weight: bolder;
+    color: var(--green);
+    font-size: 2rem;
+}
+.product .box-container .box .price span{
+    text-decoration: line-through;
+    color: #999;
+    font-size: 1.5rem;
+}
 
 /*responsive*/
 @media(max-width:1200px) {
