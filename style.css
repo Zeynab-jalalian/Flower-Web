@@ -555,4 +555,14 @@ color: #333;
     .header-1 {
         display: none;
     }
+    .deal .row .content .countDown .box{
+        width: 7rem;
+    }
+    .deal .row .content .countDown .box h3{
+        font-size: 3rem;
+        padding: 0.5rem 0;
+    }
+    .deal .row .content .countDown .box span{
+        font-size: 1.5rem;
+    }
 }
