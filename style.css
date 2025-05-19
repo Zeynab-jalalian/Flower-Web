@@ -440,8 +440,15 @@ html {
 .deal .row .content{
     flex: 1 1 40rem;
 }
-
-
+.deal .row .content .title{
+font-size: 3.5rem;
+color: #333;
+}
+.deal .row .content p{
+    font-size: 1.5rem;
+    color: #666;
+    padding: 1rem 0;
+}
 
 
 
