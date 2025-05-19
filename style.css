@@ -422,6 +422,30 @@ html {
     color: #666;
 }
 
+
+
+
+.deal .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem;
+}
+.deal .row .image{
+    flex: 1 1 40rem;
+}
+.deal .row .image img{
+    width: 100%;
+}
+.deal .row .content{
+    flex: 1 1 40rem;
+}
+
+
+
+
+
+
 /*responsive*/
 @media(max-width:1200px) {
     html {
