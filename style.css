@@ -449,7 +449,11 @@ color: #333;
     color: #666;
     padding: 1rem 0;
 }
-
+.deal .row .content .countDown{
+    display: flex;
+   padding: 1rem 0;
+    gap: 1.5rem;
+}
 
 
 
