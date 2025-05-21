@@ -1,6 +1,8 @@
 let menu = document.querySelector("#menu-bar");
 let navbar = document.querySelector(".navbar");
 let header = document.querySelector(".header-3")
+let scrollTop=document.querySelector('scroll-top');
+
 
 menu.addEventListener('click', () => {
     menu.classList.toggle('fa-times');
@@ -15,6 +17,12 @@ window.onscroll = () => {
         header.classList.add('active');
     } else {
         header.classList.remove('active');
+    }
+
+     if (window.scrollY > 10000) {
+        scrollTop.style.display='initial';
+    } else {
+        scrollTop.style.display='none';
     }
 }
 
@@ -54,3 +62,6 @@ function countDown() {
 setInterval(function(){
 countDown()
 },1000)
+
+
+

@@ -604,6 +604,10 @@ html {
     padding: 0.5rem 1.5rem;
     display: none;
 }
+.scroll-top:hover{
+    background: var(--green);
+    color: #fff;
+}
 /*responsive*/
 @media(max-width:1200px) {
     html {
