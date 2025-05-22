@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 :root {
-    --green: #d50057bd;
+    --magenta: #d50057bd;
 }
 
 * {
@@ -24,13 +24,13 @@ section {
     font-size: 3rem;
     color: #444;
     padding-left: 1rem;
-    border-left: 0.4rem solid var(--green);
+    border-left: 0.4rem solid var(--magenta);
     margin-top: 1rem;
     margin-bottom: 3rem;
 }
 
 .btn {
-    background: var(--green);
+    background: var(--magenta);
     display: inline-block;
     margin-top: 1rem;
     padding: 0.8rem 3rem;
@@ -44,7 +44,7 @@ section {
 }
 
 *::selection {
-    background: var(--green);
+    background: var(--magenta);
     color: #fff;
 }
 
@@ -63,7 +63,7 @@ html {
     justify-content: space-between;
     align-items: center;
     padding: 2rem 9%;
-    background: var(--green);
+    background: var(--magenta);
 }
 
 .header-1 {
@@ -100,11 +100,6 @@ html {
     font-size: 3rem;
     color: #fff;
 }
-
-.header-2 .logo i {
-    color: yellow;
-}
-
 .header-2 .search-bar-container {
     display: flex;
     align-items: center;
@@ -156,7 +151,7 @@ html {
 }
 
 .header-3 a:hover {
-    color: var(--green);
+    color: var(--magenta);
 }
 
 .header-3.active {
@@ -254,13 +249,13 @@ html {
     transform: scale(1.2);
 }
 
-.category .box-container {
+.Collection .box-container {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
 }
 
-.category .box-container .box {
+.Collection .box-container .box {
     position: relative;
     flex: 1 1 23rem;
     height: 35rem;
@@ -269,13 +264,13 @@ html {
     border: 0.1rem solid rgba(0, 0, 0, 0.3);
 }
 
-.category .box-container .box img {
+.Collection .box-container .box img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.category .box-container .box .content {
+.Collection .box-container .box .content {
     position: absolute;
     bottom: -5.5rem;
     background: #fff;
@@ -285,17 +280,17 @@ html {
     width: 100%;
 }
 
-.category .box-container .box:hover .content {
+.Collection .box-container .box:hover .content {
     bottom: 0;
 }
 
-.category .box-container .box .content h3 {
+.Collection .box-container .box .content h3 {
     color: #333;
     font-size: 2.5rem;
     padding: 0.5rem 0;
 }
 
-.category .box-container .box .content .btn {
+.Collection .box-container .box .content .btn {
     margin-bottom: 1.3rem;
 }
 
@@ -357,7 +352,7 @@ html {
 
 .product .box-container .box .icons a:hover {
     color: #fff;
-    background: var(--green);
+    background: var(--magenta);
 }
 
 .product .box-container .box h3 {
@@ -388,7 +383,7 @@ html {
 
 .product .box-container .box .price {
     font-weight: bolder;
-    color: var(--green);
+    color: var(--magenta);
     font-size: 2rem;
 }
 
@@ -434,54 +429,54 @@ html {
 
 
 
-.deal .row {
+.offer .row {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 1.5rem;
 }
 
-.deal .row .image {
+.offer .row .image {
     flex: 1 1 40rem;
 }
 
-.deal .row .image img {
+.offer .row .image img {
     width: 100%;
 }
 
-.deal .row .content {
+.offer .row .content {
     flex: 1 1 40rem;
 }
 
-.deal .row .content .title {
+.offer .row .content .title {
     font-size: 3.5rem;
     color: #333;
 }
 
-.deal .row .content p {
+.offer .row .content p {
     font-size: 1.5rem;
     color: #666;
     padding: 1rem 0;
 }
 
-.deal .row .content .countDown {
+.offer .row .content .countDown {
     display: flex;
     padding: 1rem 0;
     gap: 1.5rem;
 }
 
-.deal .row .content .countDown .box {
+.offer .row .content .countDown .box {
     width: 9rem;
     text-align: center;
     border: 0.1rem solid rgba(0, 0, 0, 0.3);
 }
 
-.deal .row .content .countDown .box h3 {
+.offer .row .content .countDown .box h3 {
     font-size: 5rem;
     color: #333;
 }
 
-.deal .row .content .countDown .box span {
+.offer .row .content .countDown .box span {
     font-size: 1.7rem;
     color: #fff;
     display: block;
@@ -529,7 +524,7 @@ html {
 
 .contact .row form .inputBox input:focus,
 .contact .row form .inputBox textarea:focus {
-    border-color: var(--green);
+    border-color: var(--magenta);
 }
 
 .contact .row form .inputBox label {
@@ -593,7 +588,7 @@ html {
 }
 
 .footer .credit span {
-    color: var(--green);
+    color: var(--magenta);
 }
 
 .scroll-top {
@@ -603,14 +598,21 @@ html {
     z-index: 1000;
     font-size: 3.5rem;
     background: white;
-    color: var(--green);
+    color: var(--magenta);
    
 }
 
 .scroll-top:hover {
-    color:#d50057bd ;
+    color: #bd0b73;
 }
 
+.home-slider .swiper-pagination-bullet {
+  background-color: #bb003e !important;
+}
+
+.home-slider .swiper-pagination-bullet-active {
+  background-color: #50001b !important;
+}
 /*responsive*/
 @media(max-width:1200px) {
     html {
@@ -696,16 +698,16 @@ html {
         display: none;
     }
 
-    .deal .row .content .countDown .box {
+    .offer .row .content .countDown .box {
         width: 7rem;
     }
 
-    .deal .row .content .countDown .box h3 {
+    .offer .row .content .countDown .box h3 {
         font-size: 3rem;
         padding: 0.5rem 0;
     }
 
-    .deal .row .content .countDown .box span {
+    .offer .row .content .countDown .box span {
         font-size: 1.5rem;
     }
 }

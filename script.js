@@ -40,7 +40,7 @@ let swiper = new Swiper(".home-slider", {
 });
 
 
-let countDate = new Date('May 29,2025 00:00:00').getTime();
+let countDate = new Date('May 29,2026 00:00:00').getTime();
 function countDown() {
     let now = new Date().getTime();
     gap = countDate - now;
