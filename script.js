@@ -19,7 +19,7 @@ window.onscroll = () => {
         header.classList.remove('active');
     }
 
-     if (window.scrollY > 10000) {
+     if (window.scrollY > 250) {
         scrollTop.style.display='initial';
     } else {
         scrollTop.style.display='none';
