@@ -100,6 +100,7 @@ html {
     font-size: 3rem;
     color: #fff;
 }
+
 .header-2 .search-bar-container {
     display: flex;
     align-items: center;
@@ -599,7 +600,7 @@ html {
     font-size: 3.5rem;
     background: white;
     color: var(--magenta);
-   
+
 }
 
 .scroll-top:hover {
@@ -607,12 +608,30 @@ html {
 }
 
 .home-slider .swiper-pagination-bullet {
-  background-color: #bb003e !important;
+    background-color: #bb003e !important;
 }
 
 .home-slider .swiper-pagination-bullet-active {
-  background-color: #50001b !important;
+    background-color: #50001b !important;
 }
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fce4ec;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--magenta);
+    border-radius: 10px;
+    border: 2px solid #fce4ec;
+}
+
+
 /*responsive*/
 @media(max-width:1200px) {
     html {
