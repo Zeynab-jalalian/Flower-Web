@@ -325,8 +325,8 @@ html {
     position: absolute;
     top: 1rem;
     left: 1rem;
-    background: rgba(0, 255, 0, 0.1);
-    color: var(--green);
+    background: rgba(255, 0, 221, 0.1);
+    color: #fff;
     font-size: 2rem;
     padding: 0.5rem 1rem;
 }
@@ -334,17 +334,16 @@ html {
 .product .box-container .box .icons {
     position: absolute;
     top: 1rem;
-    right: -8rem;
+    left: -8rem;
     display: flex;
     flex-flow: column;
     background: #fff;
-    border-radius: 5rem;
     padding: 0.5rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 .product .box-container .box:hover .icons {
-    right: 1rem;
+    left: 1rem;
 }
 
 .product .box-container .box .icons a {
@@ -352,8 +351,7 @@ html {
     width: 4rem;
     line-height: 4rem;
     font-size: 1.5rem;
-    color: #333;
-    border-radius: 5rem;
+    color: palevioletred;
     margin: 0.1rem;
 }
 
@@ -370,7 +368,7 @@ html {
 
 .product .box-container .box .stars i {
     font-size: 2rem;
-    color: gold;
+    color: pink;
 }
 
 .product .box-container .box .quantity {
@@ -551,63 +549,68 @@ html {
 }
 
 
-.footer .box-container{
+.footer .box-container {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
 }
-.footer .box-container .box{
+
+.footer .box-container .box {
     flex: 1 1 25rem;
 }
-.footer .box-container .box h3{
+
+.footer .box-container .box h3 {
     color: #333;
     font-size: 2.5rem;
     padding: 1rem 0;
 }
-.footer .box-container .box p{
+
+.footer .box-container .box p {
     color: #666;
     font-size: 1.5rem;
     padding: 1rem 0;
 }
-.footer .box-container .box a{
+
+.footer .box-container .box a {
     display: block;
     color: #666;
     font-size: 1.5rem;
     padding: 1rem 0;
 }
-.footer .box-container .box a:hover{
+
+.footer .box-container .box a:hover {
     text-decoration: underline;
     color: var(--green);
 }
-.footer .credit{
- font-size: 2rem;
- padding: 2rem 1rem;
- margin-top: 2rem;
- border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
- text-align: center;
- font-weight: normal;
+
+.footer .credit {
+    font-size: 2rem;
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-weight: normal;
 }
-.footer .credit span{
+
+.footer .credit span {
     color: var(--green);
 }
 
-.scroll-top{
+.scroll-top {
     position: fixed;
-    bottom: 7.5rem;
+    bottom: 7rem;
     right: 2rem;
     z-index: 1000;
     font-size: 3.5rem;
-    background: rgb(0, 255,0.1);
+    background: white;
     color: var(--green);
-    border-radius: 0.5rem;
-    border: 0.1rem solid rgba(0, 0, 0, 0.1);
-    padding: 0.5rem 1.5rem;
-    display: none;
+   
 }
-.scroll-top:hover{
-    background: var(--green);
-    color: #fff;
+
+.scroll-top:hover {
+    color:#d50057bd ;
 }
+
 /*responsive*/
 @media(max-width:1200px) {
     html {
